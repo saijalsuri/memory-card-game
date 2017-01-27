@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instructions_page" 
+    android:background="@drawable/a12_frontpage">
+
+    <Button
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/How_to_Play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Back to Menu" />
+
+    <TextView
+        android:id="@+id/How_to_Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textview_back"
+        android:text="How to Play" />
+
+</RelativeLayout>
